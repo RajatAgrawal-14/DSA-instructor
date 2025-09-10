@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure API key
-genai.configure(api_key="AIzaSyDVu2YYYhgqRLba-RtZf54Arn_e-9yVXq0")
+genai.configure(api_key="xyz")
 
 # --- Initialize chat session in Streamlit state ---
 if "chat" not in st.session_state:
@@ -57,3 +57,4 @@ st.sidebar.header("About")
 st.sidebar.info(
     "This is a simple chatbot interface built with Streamlit for a DSA instructor created by Rajat and gemini model."
 )
+
